@@ -2,6 +2,7 @@ import {
   Box,
   chakra,
   Container,
+  Link,
   Stack,
   Text,
   useColorModeValue,
@@ -57,7 +58,7 @@ const SocialButton = ({ children, label, href }) => {
 export default function Footer() {
   return (
     <Box
-      bg={useColorModeValue("#dfeaf7", "#080e13")}
+      bg={useColorModeValue("#dfeaf7", "#343541")}
       color={useColorModeValue("gray.700", "gray.200")}
     >
       <Box
@@ -75,25 +76,37 @@ export default function Footer() {
         >
           <Text>© 2023 Ajay. All rights reserved</Text>
           <Stack direction={"row"} spacing={6}>
-            <SocialButton
-              label={"Linkedin"}
+            <Link
               href={"https://www.linkedin.com/in/ajay-84sia/"}
+              color={useColorModeValue("teal.600", "teal.200")}
+              _hover={{
+                color:'#1c7fdb', 
+              }}
+              isExternal
             >
-              <FaLinkedin />
-            </SocialButton>
+              <FaLinkedin fontSize={"25px"}/>
+            </Link>
 
-            <SocialButton
-              label={"YouTube"}
+            <Link
               href={"https://github.com/Ajay84sia"}
+              color={useColorModeValue("teal.600", "teal.200")}
+              _hover={{
+                color: "black", 
+              }}
+              isExternal
             >
-              <FaGithub />
-            </SocialButton>
-            <SocialButton
-              label={"Instagram"}
+              <FaGithub fontSize={"25px"} />
+            </Link>
+            <Link
               href={"https://ajay84sia.github.io/"}
+              color={useColorModeValue("teal.600", "teal.200")}
+              _hover={{
+                color:'#0c58a0', 
+              }}
+              isExternal
             >
-              <RxAvatar />
-            </SocialButton>
+              <RxAvatar fontSize={"25px"}/>
+            </Link>
           </Stack>
         </Container>
       </Box>

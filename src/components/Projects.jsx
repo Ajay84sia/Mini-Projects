@@ -43,7 +43,7 @@ const Projects = () => {
   ];
 
   return (
-    <Box p={4}  bg={useColorModeValue('#edf2f8', '#0f1624')}>
+    <Box p={4}  bg={useColorModeValue('#edf2f8', '#444654')}>
       <Heading as="h1" size="xl" mb={4} textAlign={"center"}>
         Mini Projects
       </Heading>

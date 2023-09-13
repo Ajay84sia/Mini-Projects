@@ -39,7 +39,7 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue("#dfeaf7", "#080e13")} px={10}>
+      <Box bg={useColorModeValue("#dfeaf7", "#343541")} px={10}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <Box> AJAY</Box>
 
