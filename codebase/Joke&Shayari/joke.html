@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Joke App</title>
+    <style>
+      body {
+        background: linear-gradient(to right, #f72f2f, #f25b09);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+      }
+
+      .container {
+        max-width: 400px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 8px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      input {
+        width: 40%;
+        padding: 12px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 16px;
+      }
+
+      button {
+        padding: 12px 24px;
+        background-color: green;
+        color: #fff;
+        border: none;
+        border-radius: 6px;
+        cursor: pointer;
+        font-weight: bold;
+      }
+
+      button:hover {
+        background-color: greenyellow;
+        color: black;
+      }
+
+      #joke {
+        margin-top: 20px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 8px;
+        font-size: 16px;
+        line-height: 1.4;
+        color: #333;
+      }
+
+      .btnDiv{
+        margin-bottom: 50px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="btnDiv">
+      <a href="/index.html">
+        <button>Click here for Shayari App</button>
+      </a>
+    </div>
+
+    <div class="container">
+      <h1 id="joke-heading">Joke App</h1>
+      <input type="text" id="keyword" placeholder="Enter a keyword" />
+      <button onclick="generateJoke()">Generate Joke</button>
+      <div id="joke"></div>
+    </div>
+
+    <script>
+      async function generateJoke() {
+        const keyword = document.getElementById("keyword").value;
+
+        try {
+          const response = await fetch(
+            `https://joke-app-fa1x.onrender.com/joke?keyword=${keyword}`
+          );
+          const data = await response.json();
+
+          if (response.ok) {
+            document.getElementById("joke").innerHTML = `<h2>${data.joke}</h2>`;
+            document.getElementById("joke-heading").innerText = "Joke App";
+          } else {
+            console.error("Error:", data.error);
+            document.getElementById("joke").innerText =
+              "Failed to generate joke.";
+            document.getElementById("joke-heading").innerText = "Joke App";
+          }
+        } catch (error) {
+          console.error("Error:", error);
+          document.getElementById("joke").innerText = "Something went wrong.";
+          document.getElementById("joke-heading").innerText = "Joke App";
+        }
+      }
+    </script>
+  </body>
+</html>
