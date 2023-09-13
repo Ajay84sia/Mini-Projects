@@ -30,7 +30,7 @@ const ProjectCard = ({ project }) => {
       <Text  fontWeight="semibold" fontSize="xl" textAlign={"center"}>
         {title}
       </Text>
-      <Image borderRadius="xl" boxShadow="lg" src={image} mt={2} alt={title} />
+      <Image borderRadius="xl" boxShadow="lg" height="200px" src={image} mt={2} alt={title} />
       <Text mt={4} textAlign={"justify"}>
         {description}
       </Text>
