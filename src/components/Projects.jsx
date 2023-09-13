@@ -7,7 +7,7 @@ const Projects = () => {
     {
       title: "Rock, Paper & Scissor game",
       image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/267666836-728e6511-d006-4e0c-84cb-080fddcddd9d.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230913T131938Z&X-Amz-Expires=300&X-Amz-Signature=fa20ce27e4c830d36e3d2ddab02b1ea7b595867189026791fa175c697524efee&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/267668957-98f17152-1fb8-4405-bd92-404a9e2d5492.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230913T132657Z&X-Amz-Expires=300&X-Amz-Signature=369736c5f4215026ba1026be295c0d2ab0ec1f71f965242f8b487bd6ffb90ff8&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
       description: "This app gives random jokes and Shayari based on the word you provide. A world of humor and heartfelt emotions, right at your fingertips.",
       techStacks: ["Python"],
       repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/rockPaperScissor",
