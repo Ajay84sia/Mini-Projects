@@ -15,3 +15,6 @@
 
 ## Weather App
 ![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/5e3917f8-c269-44df-a89b-bc43319a6897)
+
+## BMI Calculator
+![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/2131b29b-e358-49c9-9caa-ab206ed092e5)
