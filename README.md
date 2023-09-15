@@ -9,3 +9,12 @@
 
 ## Rock, Paper & scissor App
 ![a9c3f0ee16781541865ccc7e7afdebeb](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/98f17152-1fb8-4405-bd92-404a9e2d5492)
+
+## URL Shortener
+![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/663e378c-a521-4ff0-b15d-80fcff2eea3c)
+
+## Weather App
+![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/5e3917f8-c269-44df-a89b-bc43319a6897)
+
+## BMI Calculator
+![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/2131b29b-e358-49c9-9caa-ab206ed092e5)
