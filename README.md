@@ -18,3 +18,6 @@
 
 ## BMI Calculator
 ![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/2131b29b-e358-49c9-9caa-ab206ed092e5)
+
+## Todo App
+![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/7effeb0f-03d6-48d6-923b-bd5a6acf430f)
