@@ -12,3 +12,6 @@
 
 ## URL Shortener
 ![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/663e378c-a521-4ff0-b15d-80fcff2eea3c)
+
+## Weather App
+![image](https://github.com/Ajay84sia/Mini-Projects/assets/98752820/5e3917f8-c269-44df-a89b-bc43319a6897)
