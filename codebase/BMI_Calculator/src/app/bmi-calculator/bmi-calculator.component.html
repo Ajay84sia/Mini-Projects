@@ -1,0 +1,38 @@
+
+  <div class="container mt-12 mx-auto  flex flex-col items-center justify-center">
+    <div class="bg-blue-200 p-8 pt-2 pb-5 rounded-lg shadow-md"> 
+      <div class="my-4">
+        <label for="weight" class="block text-blue-600 font-semibold">Weight (kg) :</label>
+        <input
+          type="number"
+          id="weight"
+          [(ngModel)]="weight"
+          class="border py-2 px-4 mt-2 rounded focus:outline-none focus:border-blue-400"
+        /> 
+      </div>
+      <div class="my-4">
+        <label for="height" class="block text-blue-600 font-semibold">Height (cm) :</label>
+        <input
+          type="number"
+          id="height"
+          [(ngModel)]="height"
+          class="border py-2 px-4 mt-2 rounded focus:outline-none focus:border-blue-400"
+        />
+      </div>
+      <div class="text-center"> 
+        <button
+          (click)="calculateBMI()"
+          class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 mt-2 rounded transition-colors duration-300 text-xl font-semibold">
+          Calculate
+        </button>
+      </div>
+    </div>
+  
+   
+    <div [class]="getCSSClassForBG(getBMICategory()) + ' mt-8 p-4 rounded-lg shadow-md text-center'" *ngIf="bmi"> 
+      <h2 class="text-2xl font-semibold ">BMI Result</h2> 
+      <p class="text-xl font-semibold">Your BMI Score is: {{ bmi.toFixed(2) }} kg/m²</p>
+      <p [class]="getCSSClassForBMICategory(getBMICategory()) + ' text-2xl font-semibold '">{{ getBMICategory() }}</p>
+    </div>
+  </div>
+  

@@ -40,6 +40,42 @@ const Projects = () => {
       repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/code-converter",
       livelink: "https://ajay84sia-code-converter.netlify.app/",
     },
+    {
+      title: "URL Shortener",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/267646989-14bde366-56f6-4fdd-b71b-884cc375283f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230913T121401Z&X-Amz-Expires=300&X-Amz-Signature=7028c5722f4921885a59103b4ecfe7661dfd9cf9164b7bf1ee4c78b5ce2575db&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
+      description: "This app helps you to transform your code effortlessly! Say goodbye to syntax errors with our Code Converter app. Convert, debug, and check quality of your code with just a click.",
+      techStacks: ["react", "javascript","node.js","express.js", "mongodb"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/code-converter",
+      livelink: "https://slice-url.netlify.app/",
+    },
+    {
+      title: "Weather App",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/267646989-14bde366-56f6-4fdd-b71b-884cc375283f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230913T121401Z&X-Amz-Expires=300&X-Amz-Signature=7028c5722f4921885a59103b4ecfe7661dfd9cf9164b7bf1ee4c78b5ce2575db&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
+      description: "This app helps you to transform your code effortlessly! Say goodbye to syntax errors with our Code Converter app. Convert, debug, and check quality of your code with just a click.",
+      techStacks: ["html", "bootstrap","javascript","rapid-API"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/code-converter",
+      livelink: "https://weatheralertapp.netlify.app/",
+    },
+    {
+      title: "BMI Calculator",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/267646989-14bde366-56f6-4fdd-b71b-884cc375283f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230913T121401Z&X-Amz-Expires=300&X-Amz-Signature=7028c5722f4921885a59103b4ecfe7661dfd9cf9164b7bf1ee4c78b5ce2575db&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
+      description: "This app helps you to transform your code effortlessly! Say goodbye to syntax errors with our Code Converter app. Convert, debug, and check quality of your code with just a click.",
+      techStacks: ["angular", "typescript","tailwind CSS"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/code-converter",
+      livelink: "https://slice-url.netlify.app/",
+    },
+    {
+      title: "Todo App",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/267646989-14bde366-56f6-4fdd-b71b-884cc375283f.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230913%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230913T121401Z&X-Amz-Expires=300&X-Amz-Signature=7028c5722f4921885a59103b4ecfe7661dfd9cf9164b7bf1ee4c78b5ce2575db&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
+      description: "This app helps you to transform your code effortlessly! Say goodbye to syntax errors with our Code Converter app. Convert, debug, and check quality of your code with just a click.",
+      techStacks: ["angular", "typescript","tailwind CSS","JSON-server"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/code-converter",
+      livelink: "https://ajay84sia-angular-todos.netlify.app/",
+    },
   ];
 
   return (

@@ -1,0 +1,45 @@
+<h1 class="font-bold text-3xl mb-6 text-center p-4">Todo List</h1>
+
+<div class=" m-auto w-1/2 mb-10">
+  <input class="ml-20 p-2 pl-4 w-5/12 border-black border-1 font-sans rounded-xl tracking-wider text-xl outline text-black font-semibold outline-none'" type="text" [(ngModel)]="newTaskTitle" placeholder="New Todo Title" />
+  <button class="ml-6  p-2 font-semibold rounded-lg text-white text-lg cursor-pointer bg-sky-500/100" (click)="createNewTask()">Add New Todo</button>
+</div>
+<div class="flex justify-center items-center">
+<table
+        id="todo-table"
+        class="text-center items-center border-white border-2 bg-lime-300 w-1/2"
+      >
+        <thead class="border-black border-2">
+          <tr>
+            <th class="border-black border-2 p-2">S.NO.</th>
+            <th class="border-black border-2 p-2">Title</th>
+            <th class="border-black border-2 p-2">Current Status</th>
+            <th class="border-black border-2 p-2">Edit</th>
+            <th class="border-black border-2 p-2">Delete</th>
+          </tr>
+        </thead>
+  <tbody>
+    <tr class="text-center" *ngFor="let task of tasks; let i = index;">
+      <td class="border-black border-2 font-bold">{{ i+1 }}.</td>
+      <td  class="border-black border-2 p-2 font-bold capitalize text-left text-center">
+        <input [(ngModel)]="task.editTitle" *ngIf="task.editing" class="pl-2 font-bold"/>
+        <span *ngIf="!task.editing">{{ task.title }}</span>
+      </td>
+      <td class=' font-bold border-black border-2 {{
+        task.status ? "bg-green-500" : "bg-orange-400"
+      }}'>
+        <input type="checkbox" [(ngModel)]="task.editCompleted" *ngIf="task.editing" />
+        <span *ngIf="!task.editing">{{ task.status ? 'Completed' : 'Pending' }}</span>
+      </td>
+      <td class="border-black border-2">
+        <button class=" bg-blue-500 text-white font-bold px-4 py-2 rounded-lg hover:bg-blue-600" (click)="editTask(task)" *ngIf="!task.editing">Edit</button>
+        <button class="font-bold p-2 bg-green-500 text-white" (click)="saveTask(task)" *ngIf="task.editing">Save</button>
+        
+      </td>
+      <td class="border-black border-2 p-2">
+        <button class="font-bold p-2 bg-red-500 text-white rounded-lg hover:bg-red-600" (click)="deleteTask(task.id)">Delete</button>
+      </td>
+    </tr>
+  </tbody>
+</table>
+</div>
