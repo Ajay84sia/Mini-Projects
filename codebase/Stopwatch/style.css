@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+    background: #a98dee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+#stopwatch{
+    font-size: 100px;
+    box-shadow: 0px 0px 10px black;
+    background: #202020;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+#buttons{
+    display: flex;
+}
+button{
+    padding: 20px;
+    background-color: #202020;
+    box-shadow: 0px 0px 10px black;
+    border:none;
+    border-radius: 10px;
+    color: white;
+    font-size: larger;
+    margin: 10px;
+    width:100px;
+    transition: all 0.5s;
+}
+button:hover{
+    cursor:pointer;
+    background-color:#8e00ec;
+}
