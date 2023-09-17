@@ -11,6 +11,7 @@ import {
   Stack,
   useColorMode,
   Center,
+  Heading,
 } from "@chakra-ui/react";
 import { MoonIcon, SunIcon } from "@chakra-ui/icons";
 
@@ -39,9 +40,9 @@ export default function Navbar() {
   const { isOpen, onOpen, onClose } = useDisclosure();
   return (
     <>
-      <Box bg={useColorModeValue("#dfeaf7", "#343541")} px={10}>
+      <Box position={"fixed"} width={"100vw"} bg={useColorModeValue("#dfeaf7", "#343541")} px={10}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
-          <Box> AJAY</Box>
+          <Box> <Heading as={"h1"} color={useColorModeValue('teal.600', 'teal.200')} fontFamily={"Times New Roman"}>AJAY</Heading></Box>
 
           <Flex alignItems={"center"}>
             <Stack direction={"row"} spacing={7}>
@@ -74,7 +75,7 @@ export default function Navbar() {
                   </Center>
                   <br />
                   <Center>
-                    <p>Ajay</p>
+                  <Heading as={"h1"} color={useColorModeValue('teal.600', 'teal.200')} fontFamily={"Times New Roman"}>AJAY</Heading>
                   </Center>
                 </MenuList>
               </Menu>
