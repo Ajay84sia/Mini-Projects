@@ -61,7 +61,7 @@ const Projects = () => {
     {
       title: "BMI Calculator",
       image:
-        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/268306671-2131b29b-e358-49c9-9caa-ab206ed092e5.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230915%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230915T141713Z&X-Amz-Expires=300&X-Amz-Signature=265fef6f6e493b3fd0660d392989247f296fefd8a9a1d1c003b98bdd3c598345&X-Amz-SignedHeaders=host&actor_id=98752820&key_id=0&repo_id=690878901",
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/268483995-80b8fd78-e395-4a6a-924a-aeaef29cc050.png",
       description: "Your ultimate BMI Calculator! Quickly assess your wellness and track your progress effortlessly with our user-friendly app. Your path to a healthier you starts here!",
       techStacks: ["angular", "typescript","tailwind CSS"],
       repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/BMI_Calculator",
