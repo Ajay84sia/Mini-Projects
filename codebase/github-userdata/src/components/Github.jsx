@@ -25,14 +25,18 @@ const Github = () => {
     }
   };
 
-  return  (
+  return (
     <div className="min-h-screen flex flex-col items-center justify-center p-4 dark:bg-gray-900">
-        <div className="flex">
-
-      <h1 className="text-3xl font-semibold mb-4 dark:text-white mr-2">Github User's Data</h1>
-
-      <ThemeToggle />
-        </div>
+      <div className="flex">
+        <h1
+          className="text-2xl md:text-3xl lg:text-3xl xl:text-3xl font-semibold mt-2 dark:text-white mr-2"
+          // style={{ fontFamily: "Gill Sans" }}
+        >
+          Github User's Profile
+        </h1>
+    &nbsp;
+        <ThemeToggle />
+      </div>
       <div className="mb-4 mt-4">
         <input
           type="text"
