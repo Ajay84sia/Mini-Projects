@@ -85,6 +85,15 @@ const Projects = () => {
       repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/Stopwatch",
       livelink: "https://web-stopwatch.netlify.app/",
     },
+    {
+      title: "Github User's Profile",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/268988867-bd02484f-b3c6-4246-8dae-ae369feb0f78.png",
+      description: "Explore GitHub user's profile with ease and style! This website offers a user-friendly search interface and supports both light and dark themes for a personalized experience.",
+      techStacks: ["React", "Javascript","Tailwind CSS"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/github-userdata",
+      livelink: "https://git-user-data.netlify.app/",
+    },
   ];
 
   return (
