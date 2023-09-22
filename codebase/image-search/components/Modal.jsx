@@ -55,7 +55,7 @@ const Modal = ({ showModal, onClose, selectedImage }) => {
             {selectedImage.user.name}
           </p>
           <p className="text-base leading-relaxed text-gray-500 dark:text-gray-500 ">
-            <b className="text-black dark:text-black">Created At :</b>{" "}
+            <b className="text-black dark:text-black">Captured At :</b>{" "}
             {convertDate(selectedImage.created_at)}
           </p>
         </div>
