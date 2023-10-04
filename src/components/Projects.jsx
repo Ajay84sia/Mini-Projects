@@ -94,6 +94,24 @@ const Projects = () => {
       repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/github-userdata",
       livelink: "https://git-user-data.netlify.app/",
     },
+    {
+      title: "Infinite Scrolling App",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/272486899-913de7bb-6de9-4fb0-9d78-e3ce35ff3ad0.png",
+      description: "Experience a revolutionary browsing journey with our Infinite Scrolling App. Dive into a continuous stream of captivating content, ensuring endless excitement and exploration at your fingertips.",
+      techStacks: ["React", "Javascript","Tailwind CSS"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/infinite-scroll",
+      livelink: "https://unlimited-scroll.netlify.app/",
+    },
+    {
+      title: "QR Code Generator",
+      image:
+        "https://github-production-user-asset-6210df.s3.amazonaws.com/98752820/272486612-131d14a1-4b4d-4a23-81d0-e71ce75ec043.png",
+      description: "Unlock instant connections with our QR Code Generator app. Seamlessly share information, transforming words into meaningful links, and elevate your communication effortlessly.",
+      techStacks: ["React", "Javascript","Tailwind CSS"],
+      repolink: "https://github.com/Ajay84sia/Mini-Projects/tree/main/codebase/qr-code-generator",
+      livelink: "https://quickqr-generator.netlify.app/",
+    },
   ];
 
   return (
